@@ -1,0 +1,70 @@
+#wrap {width: 100%; min-width: 1900px;}
+.main_page {
+    height: 100vh;
+    background-image: url(../images/main_bg.png);
+    background-size: cover;
+    background-position: center;
+    min-width: 1800px
+}
+.portfolio {margin-left: -22px; margin-top: 80px;}
+.main_page h1 {
+    font-family: 'D2Coding Ligature', monospace; font-weight: 700; font-size: 15.625rem; letter-spacing: 2px;
+    /* position: absolute; left: -22px; top: 86px; */ color: #2A69EA;
+
+}
+.main_txt {display: flex; flex-flow: row nowrap;}
+
+.year {font-size:2.25rem ; color: #2A69EA; padding-left: 180px; position: relative; top: 10px;}
+.sub {font-size:2.25rem ; color: #2A69EA; padding-left: 230px;}
+.sub_txt {position: absolute; left: 328px; top: 232px;}
+
+.right_menu {float: right; position: relative; top: 14%; padding-right:84px ;}
+.right_menu h2 {
+    width:150px ; border-bottom: 2px solid #B4B4B4; color: #4E4E4E; 
+    padding-bottom: 1px; margin-bottom:27px ; font-size: 1.063rem;
+}
+
+/* 프로필 */
+.profile {width: 1520px; margin: 0 auto 215px;}
+.profile h3 {margin: 78px 0; font-size: 0.938rem;}
+.profile > span {border: 1px dashed #D9D9D9; padding: 10px; font-size: 1.25rem; font-weight: 500;}
+.profile_inner {display: flex; flex-flow: row nowrap;}
+.profile_left > img {padding: 56px 0 39px;}
+.inner_left > p {font-weight: 500; padding-bottom: 17px;}
+.inner_right > p {padding-left:28px; padding-bottom: 17px;}
+/* 프로필 경력 */
+.profile_content {display: flex; flex-flow: row nowrap;}
+
+.education {margin-left: 216px; margin-top: 55px;}
+.education > p {margin-bottom:60px ; margin-left: 15px; font-weight: 500;}
+.education_inner {display: flex ; flex-flow: row nowrap;}
+.education_line img {margin-right: 11px; margin-top: 6px;}
+.education_year > p {color: #7D7D7D; padding-bottom: 23px;}
+.education_txt > p { padding-bottom: 23px; margin-left:30px ;}
+.skill {margin-left: 216px; margin-top:105px ;}
+.skill > p {padding-bottom: 39px; font-weight: 500;}
+.skill > img {padding-right:5px ;}
+
+/* 웹 디자인 */
+.webdesign > p {font-size: 0.938rem; margin-left: 200px; margin-bottom: 93px;}
+.web_content {display: flex; flex-flow: row nowrap;}
+.web_inner {margin-left: 72px;}
+.web_inner > h3 {font-size: 2rem; font-weight: 700; margin-bottom: 44px; margin-top: 17px;}
+.web_inner img {margin-bottom: 44px;}
+.web_name {display: flex; flex-flow: row nowrap; align-items: end; gap: 6px ; margin-bottom: 27px;}
+.web_name > p {font-size: 2.25rem; font-weight: 500;}
+.web_name > span {font-size: 0.938rem;}
+.web_inner > p {font-size:0.938rem ; padding-bottom: 13px;}
+.button {margin-top:25px ;}
+#prototype {width: 190px ; height: 46px ; background-color:#0066FF ; color: #fff; font-weight: 400; border-radius: 12px;}
+#plan {margin: 0 30px; width: 190px ; height: 46px ; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06); border-radius: 12px;}
+#site {width: 190px ; height: 46px ; background-color:#EEEEEE ; color: #000000; font-weight: 400; border-radius: 12px; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);}
+
+.web_content2 {display: flex; flex-flow: row nowrap; text-align: right; justify-content: end; margin-top:232px ; margin-bottom: 232px;}
+.web_content2 > .web_inner {margin-right:72px ;}
+.web_name2 {display: flex; flex-flow: row nowrap; justify-content: right; align-items: end; gap: 6px; margin-bottom: 27px;}
+.web_txt {font-size:0.938rem ;}
+.web_title2 {font-size: 2.25rem; font-weight:500 ;}
+.web_title2 {justify-content: right;}
+
+/* 그래픽디자인 */
