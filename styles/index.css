@@ -55,10 +55,20 @@
 .web_name > p {font-size: 2.25rem; font-weight: 500;}
 .web_name > span {font-size: 0.938rem;}
 .web_inner > p {font-size:0.938rem ; padding-bottom: 13px;}
-.button {margin-top:25px ;}
-#prototype {width: 190px ; height: 46px ; background-color:#0066FF ; color: #fff; font-weight: 400; border-radius: 12px;}
-#plan {margin: 0 30px; width: 190px ; height: 46px ; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06); border-radius: 12px;}
-#site {width: 190px ; height: 46px ; background-color:#EEEEEE ; color: #000000; font-weight: 400; border-radius: 12px; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);}
+.button {margin-top:25px ; display: flex; flex-flow: row nowrap;}
+#prototype {
+    width: 190px ; height: 46px ; display: block; background-color:#0066FF ; color: #fff; 
+    font-weight: 400; border-radius: 12px; text-align: center; line-height: 46px;
+}
+#plan {
+    margin: 0 30px; width: 190px ; height: 46px ; display: block; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06); 
+    border-radius: 12px; text-align: center; line-height: 46px;
+}
+#site {
+    width: 190px ; height: 46px ; display: block; background-color:#EEEEEE ; color: #000000; 
+    font-weight: 400; border-radius: 12px; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.06);
+    text-align: center; line-height: 46px;
+}
 
 .web_content2 {display: flex; flex-flow: row nowrap; text-align: right; justify-content: end; margin-top:232px ; margin-bottom: 232px;}
 .web_content2 > .web_inner {margin-right:72px ;}
@@ -68,3 +78,24 @@
 .web_title2 {justify-content: right;}
 
 /* 그래픽디자인 */
+/* .swiper-wrapper {
+    transition-timing-function: linear;
+} */
+.zoom {width: 300px; height:300px ;}
+.zoom_img {width: 100%; transition: transform 0.3s;}
+.zoom a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.graphic > p {font-size:0.938rem ; margin-left: 200px; margin-bottom: 195px;}
+.graphic {margin-bottom: 643px;}
+
+/* 끝인사말 */
+.last_txt {display: flex; flex-flow: row nowrap; margin-left: 559px; margin-bottom: 270px;}
+.left_txt > .last_name {font-weight: 500; font-size: 1.25rem; padding: 10px 0;}
+.left_txt > p {padding-bottom: 10px;}
+.right_txt {margin-left: 80px;}
+.right_txt > span {font-weight: 500; font-size: 2.5rem; }
+.right_txt > p {font-size: 1.25rem; padding-top: 19px;}
