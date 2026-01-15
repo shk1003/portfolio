@@ -10,13 +10,13 @@
 .main_page h1 {
     font-family: 'D2Coding Ligature', monospace; font-weight: 700; font-size: 15.625rem; letter-spacing: 2px;
     color: #2A69EA;
-
 }
 .main_txt {display: flex; flex-flow: row nowrap;}
 
+
 .year {font-size:2.25rem ; color: #2A69EA; padding-left: 180px; position: relative; top: 10px;}
 .sub {font-size:2.25rem ; color: #2A69EA; padding-left: 230px;}
-.sub_txt {position: absolute; left: 328px; top: 232px;}
+.sub_txt {position: absolute; left: 348px; top: 232px;}
 
 .right_menu {float: right; position: relative; top: 14%; padding-right:84px ;}
 .right_menu h2 {
