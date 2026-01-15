@@ -13,6 +13,7 @@
 }
 .main_txt {display: flex; flex-flow: row nowrap;}
 
+
 .year {font-size:2.25rem ; color: #2A69EA; padding-left: 180px; position: relative; top: 10px;}
 .sub {font-size:2.25rem ; color: #2A69EA; padding-left: 230px;}
 .sub_txt {position: absolute; left: 348px; top: 232px;}
