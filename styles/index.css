@@ -1,4 +1,7 @@
 #wrap {width: 100%; min-width: 1900px;}
+body {
+    overflow-x: hidden;
+}
 .main_page {
     height: 100vh;
     background-image: url(../images/main_bg.png);
@@ -8,15 +11,16 @@
 }
 .portfolio {margin-left: -22px; margin-top: 80px;}
 .main_page h1 {
-    font-family: 'D2Coding Ligature', monospace; font-weight: 700; font-size: 15.625rem; letter-spacing: 2px;
+    font-family: 'D2Coding Ligature'; font-weight: 700; font-size: 13.625rem; letter-spacing: 2px;
     color: #2A69EA;
 }
 .main_txt {display: flex; flex-flow: row nowrap;}
 
 
-.year {font-size:2.25rem ; color: #2A69EA; padding-left: 180px; position: relative; top: 10px;}
+.year {font-size:2.25rem ; color: #2A69EA; padding-left: 200px; position: relative; top: 10px;}
 .sub {font-size:2.25rem ; color: #2A69EA; padding-left: 230px;}
-.sub_txt {position: absolute; left: 348px; top: 232px;}
+.sub_txt {position: absolute; left: 348px; top: 235px;}
+
 
 .right_menu {float: right; position: relative; top: 14%; padding-right:84px ;}
 .right_menu h2 {
